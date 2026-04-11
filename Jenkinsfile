@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Kwasi200/retail-app.git'
+                #git 'https://github.com/Kwasi200/retail-app.git'
+                git branch: 'main', url: 'https://github.com/Kwasi200/retail-app.git'
             }
         }
 
