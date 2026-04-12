@@ -5,6 +5,6 @@ public class AppTest {
 
     @Test
     public void testApp() {
-        assertEquals(2, 1 + 1);
+        assertEquals(3, 1 + 1);
     }
 }
